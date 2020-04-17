@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:anddroid="http://schemas.android.com/apk/res-auto"
+    package="com.example.sai.m3formulas">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".chap2">
+            <intent-filter>
+                <action android:name=".chap2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".unit1" />
+        <activity android:name=".unit4" />
+        <activity android:name=".unit5" />
+        <activity android:name=".unit6" />
+        <activity android:name=".basicformulae" />
+        <activity android:name=".unit2a" />
+        <activity android:name=".unit2b" />
+        <activity android:name=".unit3" />
+        <activity android:name=".splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".m1">
+            <intent-filter>
+                <action android:name=".m1"/>
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".m2">
+            <intent-filter>
+                <action android:name=".m2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".about" />
+        <activity android:name=".m11" />
+        <activity android:name=".m12" />
+        <activity android:name=".m13" />
+        <activity android:name=".m14" />
+        <activity android:name=".m15" />
+        <activity android:name=".m16" />
+        <activity android:name=".m21" />
+        <activity android:name=".m22" />
+        <activity android:name=".m23" />
+        <activity android:name=".m24" />
+        <activity android:name=".m25" />
+        <activity android:name=".m26"></activity>
+    </application>
+
+</manifest>
